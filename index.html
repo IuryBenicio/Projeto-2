@@ -16,8 +16,8 @@
                 <h2>Insira um novo contato</h2>
                 <form id="formulario">
                     <input class="Nome" type="text"  placeholder="Nome" required>
-                    <input class="DDD" type="text"  size="2" maxlength="2" required placeholder="DDD">
-                    <input class="Telefone" type="text" maxlength="9" required placeholder="Número">
+                    <input class="DDD" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" size="2" maxlength="2" required placeholder="DDD">
+                    <input class="Telefone" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" required placeholder="Número">
                     <button type="submit" class="BotaoSubmit">ADICIONAR+</button>
                 </form>
             </div>
