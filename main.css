@@ -6,8 +6,8 @@
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    text-align: center;
     padding: 30px 60px;
     background-color: rgba(0, 0, 255,0.4);
     color: aliceblue;
@@ -19,6 +19,7 @@ header{
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 header a{
