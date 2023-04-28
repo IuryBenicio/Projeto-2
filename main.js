@@ -23,10 +23,9 @@ function adicionaLinha(){
     numeros.push(inputNumero);
 
     var linha = '<tr>';
-    linha += `<td>${inputNome}<td>`;
-    linha += `<td>${inputDDD}<td>`;
-    linha += `<td>${inputNumero}<td>`;
-    linha += '<tr>';
+    linha += `<td>${inputNome}`;
+    linha += `<td>${inputDDD}`;
+    linha += `<td>${inputNumero}`;
 
     linhas += linha;
 }
