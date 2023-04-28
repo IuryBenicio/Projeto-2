@@ -22,7 +22,7 @@ function adicionaLinha(){
     ddds.push(inputDDD);
     numeros.push(inputNumero);
 
-    var linha = '<tr>';
+    var linha = '<tr class="itemNovo">';
     linha += `<td>${inputNome}`;
     linha += `<td>${inputDDD}`;
     linha += `<td>${inputNumero}`;

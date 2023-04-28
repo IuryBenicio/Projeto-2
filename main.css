@@ -112,10 +112,12 @@ table{
     border-radius: 20px;
 }
 
+.itemNovo{
+    border-top: 1px solid black;
+}
 
 
 th{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.257);
     color: rgba(0, 0, 0, 0.663);
     padding: 8px 0 ;
 }
